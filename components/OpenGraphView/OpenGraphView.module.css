@@ -1,0 +1,16 @@
+.graph_view {
+  margin-top: 2em;
+
+  display: flex;
+  gap: 3em;
+
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .graph_view {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+  }
+}

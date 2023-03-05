@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+
+  width: 300px;
+  /* height: 300px; */
+
+  /* gap: 10px; */
+}
+
+.image {
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  /* width: 100vw; */
+}
+
+.title {
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.url {
+  padding: 5px 15px;
+
+  font-size: 16px;
+  color: #909090;
+}
+
+.description {
+  padding: 5px 15px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
