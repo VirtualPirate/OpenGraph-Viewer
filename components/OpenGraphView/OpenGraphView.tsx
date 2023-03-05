@@ -35,7 +35,7 @@ export default function OpenGraphView() {
 
   return (
     <div className={styles.graph_view}>
-      <pre style={{ width: "400px" }}>
+      <pre style={{ width: "min(80vw, 400px)" }}>
         <code className="language-json">{code}</code>
       </pre>
 
